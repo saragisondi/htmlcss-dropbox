@@ -73,8 +73,6 @@ z-index: 999;
 }
 
 /*MAIN*/
-
-
 /*JUMBOTRON*/
 main .jumbotron{
   background-color: #B4D0E7;
@@ -93,7 +91,6 @@ main .jumbotron p{
   margin-top: 95px;
   margin-bottom: 30px;
 }
-
 
 main .jumbotron .cta.header div:nth-child(2){
 font-size: 500;
@@ -127,11 +124,9 @@ main .container-center{
   width: 70%;
 }
 
-/*PLAN*/
+/*DROPBOX PLAN*/
 
-main .dropbox-plan{
-  margin: 20px 20px;
-}
+
 main .dropbox-plan h1{
   font-size: xx-large;
 }
@@ -141,6 +136,7 @@ main .dropbox-plan ul li a{
   margin-top: 50px;
 }
 
+/*PLAN TOP*/
 main .plan-column{
   margin-top: 30px;
 }
@@ -152,7 +148,8 @@ main .plan-top{
 
 main .plan{
   width: calc(100% / 3);
-  margin: 0 25px;
+  margin-right:55px;
+  display: flex;
 }
 
 main .container-plan{
@@ -162,13 +159,15 @@ main .container-plan{
 
 main .plan-type{
   border-bottom:1px solid gray;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
+  font-weight: 500;
   margin-bottom: 50px;
 }
 
 main .plans{
   margin: 0 30px;
+  font-size: smaller;
 }
 
 main .plans h3{
@@ -212,4 +211,32 @@ main .plans .highlights ul{
 
 main .plans .highlights ul li{
   margin: 20px 0;
+}
+
+/*PLAN BOTTOM*/
+main .plan-bottom{
+  margin-top: 50px;
+}
+
+main .plan-bottom h3{
+  margin: 15px 0
+}
+
+main .plan-bottom p{
+  margin:20px 0;
+}
+
+main .plan-bottom .team-text{
+  margin-left: 20px;
+  position: relative;
+}
+
+main .plan-bottom .button{
+  position: absolute;
+  top: 2px;
+  left: 540px
+}
+
+main .plan-bottom .button a{
+  padding: 5px 50px;
 }
