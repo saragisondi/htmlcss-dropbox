@@ -121,10 +121,10 @@ main ul li{
   margin: 0 5px;
 }
 
-main .center{
+main .container-center{
   background-color: bisque;
   margin: 200px  auto;
-  width: 73%;
+  width: 70%;
 }
 
 /*PLAN*/
@@ -140,15 +140,16 @@ main .plan-column{
 
 main .plan-top{
   display: flex;
-  justify-content: space-between;
-  width:90%;
   height:100% ;
+}
+
+main .plan{
+  width: calc(100% / 3);
+  margin: 0 25px;
 }
 
 main .container-plan{
   background-color: #ffff;
-  display: flex;
-  flex-direction: column; 
   border: 1px solid gray;
 }
 
@@ -157,21 +158,21 @@ main .plan-type{
   text-align: center;
 }
 
-main .plan{
+main .plans{
   margin: 0 30px;
 }
 
-main .plan h3{
+main .plans h3{
 margin-top: 25px;
 margin-bottom: 10px;
 }
 
-main .plan h3 + span{ 
+main .plans h3 + span{ 
   margin-top: 10px;
   color: grey;
 }
 
-main .plan .condition{
+main .plans .condition{
   margin: 50px 0;
 }
 
@@ -192,14 +193,14 @@ main hr{
 
 /*PLAN HIGHLIGHTS*/
 
-main .plan .highlights{
+main .plans .highlights{
   margin: 20px 0;
 }
 
-main .plan .highlights ul{
+main .plans .highlights ul{
   display: block;
 }
 
-main .plan .highlights ul li{
+main .plans .highlights ul li{
   margin: 20px 0;
 }
