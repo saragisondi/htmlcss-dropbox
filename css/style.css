@@ -72,6 +72,8 @@ right:0;
 z-index: 999;
 }
 
+/*MAIN*/
+
 
 /*JUMBOTRON*/
 main .jumbotron{
@@ -110,3 +112,55 @@ main .jumbotron .img{
   left:500px
 }
 
+/*CONTAINER CENTER*/
+main ul{
+  display: flex;
+}
+
+main ul li{
+  margin: 0 5px;
+}
+
+main .center{
+  background-color: bisque;
+  margin: 200px  auto;
+  width: 70%;
+}
+
+/*PLAN*/
+main .plan-top{
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  width: calc(90% / 3);
+}
+
+main .plan-type{
+  border: 1px solid gray;
+  text-align: center;
+}
+
+main .plan{
+  border: 1px solid gray;
+}
+
+main .plan h3{
+margin-top: 25px;
+margin-bottom: 10px;
+}
+
+main .plan h4 + span{ 
+  margin-top: 10px;
+  color: grey;
+}
+
+main .plan .condition{
+  font-size: medium;
+  margin: 40px 0;
+}
+
+main .cta-plan .buy{
+  color:#0061FF;
+  text-decoration: underline;
+  
+}
