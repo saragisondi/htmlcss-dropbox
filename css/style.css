@@ -139,21 +139,22 @@ main .plan-column{
 }
 
 main .plan-top{
+  display: flex;
+  justify-content: space-between;
+  width:90%;
+  height:100% ;
+}
+
+main .container-plan{
   background-color: #ffff;
   display: flex;
-  flex-direction: column;
-  width: calc(95% / 3);
-  height:100% ;
+  flex-direction: column; 
+  border: 1px solid gray;
 }
 
 main .plan-type{
   border: 1px solid gray;
   text-align: center;
-}
-
-main .container-plan{
-  border: 1px solid gray;
-  
 }
 
 main .plan{
@@ -165,7 +166,7 @@ margin-top: 25px;
 margin-bottom: 10px;
 }
 
-main .plan h4 + span{ 
+main .plan h3 + span{ 
   margin-top: 10px;
   color: grey;
 }
