@@ -124,15 +124,26 @@ main ul li{
 main .center{
   background-color: bisque;
   margin: 200px  auto;
-  width: 70%;
+  width: 73%;
 }
 
 /*PLAN*/
+
+main .dropbox-plan h1{
+  font-size: xx-large;
+  margin-bottom: 40px;
+}
+
+main .plan-column{
+  margin-top: 30px;
+}
+
 main .plan-top{
   background-color: #ffff;
   display: flex;
   flex-direction: column;
-  width: calc(90% / 3);
+  width: calc(95% / 3);
+  height:100% ;
 }
 
 main .plan-type{
@@ -140,8 +151,13 @@ main .plan-type{
   text-align: center;
 }
 
-main .plan{
+main .container-plan{
   border: 1px solid gray;
+  
+}
+
+main .plan{
+  margin: 0 30px;
 }
 
 main .plan h3{
@@ -155,14 +171,22 @@ main .plan h4 + span{
 }
 
 main .plan .condition{
-  font-size: medium;
-  margin: 40px 0;
+  margin: 50px 0;
+}
+
+main .cta-plan div:last-child{
+  margin-top: 30px;
 }
 
 main .cta-plan .buy{
   color:#0061FF;
   text-decoration: underline;
   
+}
+
+main hr{
+  margin: 30px 0;
+  width: 50px;
 }
 
 /*PLAN HIGHLIGHTS*/
