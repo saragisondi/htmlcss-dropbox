@@ -24,15 +24,28 @@ a{
 
 
 /*HEADER*/
-header{
-
-}
 
 /*NAVBAR*/
 nav{
-  background-color: aquamarine;
   display: flex;
+  width: 100%;
+  position: relative;
+  padding: 15px;
 }
 nav ul{
   display: flex;
+}
+
+nav ul li{
+  margin: 0 30px;
+}
+
+nav .nav.right{
+  position: absolute;
+  right: 0;
+}
+
+/*JUMBOTRON*/
+.jumbotron{
+  background-color: bisque;
 }
