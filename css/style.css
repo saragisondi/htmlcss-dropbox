@@ -164,3 +164,17 @@ main .cta-plan .buy{
   text-decoration: underline;
   
 }
+
+/*PLAN HIGHLIGHTS*/
+
+main .plan .highlights{
+  margin: 20px 0;
+}
+
+main .plan .highlights ul{
+  display: block;
+}
+
+main .plan .highlights ul li{
+  margin: 20px 0;
+}
