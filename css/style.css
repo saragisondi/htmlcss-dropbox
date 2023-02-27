@@ -31,7 +31,7 @@ a{
 
 .text{
   margin:20px 0;
-  width: 35%;
+  width: 30%;
   font-weight:500;
   font-size: medium;
 }
@@ -77,14 +77,15 @@ z-index: 999;
 /*JUMBOTRON*/
 main .jumbotron{
   background-color: #B4D0E7;
-  width: 80%;
   margin: 0 auto;
-  padding: 100px;
+  height: 50%;
+  padding: 140px;
+  position: relative;
 }
 
 main .jumbotron h1{
-  font-weight: 800;
-  font-size: 55px;
+  font-weight: 600;
+  font-size: 70px;
 }
 
 main .jumbotron .cta.header div:nth-child(2){
@@ -95,4 +96,11 @@ margin-bottom: 50px;
 
 main .jumbotron .cta.header div:last-child{
   font-size: 50px;
+}
+
+main .jumbotron .img{
+  width: 60%;
+  position: absolute;
+  top: 400px;
+  left:500px
 }
