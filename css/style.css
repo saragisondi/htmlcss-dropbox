@@ -6,7 +6,7 @@
 }
 
 body{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 img{
@@ -22,18 +22,16 @@ a{
   display: inline-block;
 }
 
-.button{
-  background-color:#0061FF ;
-}
-
 .button a{
+  background-color:#0061FF ;
   color:#ffff;
+  padding: 5px 10px;
 }
 
-/*HEADER*/
-header{;
-
- 
+.text{
+  margin:20px 0;
+  width: 40%;
+  font-weight: 500;
 }
 
 /*NAVBAR*/
@@ -62,8 +60,14 @@ nav .nav.right{
 
 nav .button{
   margin:0 30px;
-  padding: 5px 10px;
 }
+
+/*HEADER*/
+header{;
+
+ 
+}
+
 
 /*JUMBOTRON*/
 header .jumbotron{
@@ -71,4 +75,13 @@ header .jumbotron{
   width: 80%;
   margin: 0 auto;
   padding: 100px;
+}
+
+header .jumbotron h1{
+  font-weight: 800;
+  font-size: 55px;
+}
+
+header .jumbotron .cta.header{
+
 }
