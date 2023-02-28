@@ -334,6 +334,19 @@ main .frequent-questions ul li:last-child{
   width: 80%;
 }
 
+/*DROPBOX COMPANIES*/
+main .companies{
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .companies .box{
+  width: calc(100% / 3);
+  border: 1px solid black;
+}
+
+
 /*FOOTER*/
 footer{
   background-color: black;
