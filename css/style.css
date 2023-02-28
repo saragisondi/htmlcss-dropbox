@@ -136,6 +136,10 @@ main .dropbox-plan ul li a{
   margin-top: 50px;
 }
 
+main .dropbox-plan .monthly-billing i{
+  color: #0061ff;
+}
+
 /*PLAN TOP*/
 main .plan-column{
   margin-top: 30px;
@@ -224,6 +228,7 @@ main .plan-bottom h3{
 
 main .plan-bottom p{
   margin:20px 0;
+  font-size: small;
 }
 
 main .plan-bottom .team-text{
