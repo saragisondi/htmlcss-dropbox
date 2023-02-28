@@ -284,11 +284,14 @@ main .patner-text p{
 /*DROPBOX MORE OPERATION*/
 main .container-cards{
   background-color: yellowgreen;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 main .more-operation{
   background-color: beige;
-  width: calc(100% / 3);
-  margin-right: 20px;
+  width: calc(80% / 3);
+  margin:50px 20px;
+  
 }
 
