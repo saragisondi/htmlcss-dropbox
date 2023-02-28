@@ -29,10 +29,15 @@ a{
   padding: 5px 10px;
 }
 
+.white-button a{
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
 .text{
   width: 30%;
   font-weight:500;
-  font-size: medium;
+  font-size: 13px;
 }
 
 /*NAVBAR*/
@@ -245,3 +250,5 @@ main .plan-bottom .button{
 main .plan-bottom .button a{
   padding: 5px 50px;
 }
+
+/*DROPBOX PATNER*/
