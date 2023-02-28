@@ -333,3 +333,26 @@ main .frequent-questions ul li:last-child{
   border-bottom: 1px solid lightgray;
   width: 80%;
 }
+
+/*FOOTER*/
+footer{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+footer div{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+footer ul li a{
+  color: #ffff;
+}
+
+footer ul li a:first-child{
+  font-weight: bold;
+  font-size: medium;
+  padding-top:100px;
+}
