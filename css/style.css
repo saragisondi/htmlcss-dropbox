@@ -31,6 +31,7 @@ a{
 }
 
 .white-button a{
+  background-color: #ffff;
   border: 2px solid black;
   padding: 5px 10px;
   margin: 20px 0;
@@ -204,7 +205,7 @@ main .cta-plan div:last-child{
   margin-top: 30px;
 }
 
-main .cta-plan .buy{
+main .action{
   color:#0061FF;
   text-decoration: underline; 
 }
@@ -283,14 +284,13 @@ main .patner-text p{
 
 /*DROPBOX MORE OPERATION*/
 main .container-cards{
-  background-color: yellowgreen;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 main .more-operation{
-  background-color: beige;
   width: calc(90% / 3);
   margin:50px 0;
 }
@@ -301,4 +301,18 @@ main .more-operation span{
 
 main .more-operation h2{
   margin-bottom: 20px;
+}
+
+/*INFO CLIENTS*/
+main .cta-clients h1{
+  margin-bottom: 20px;
+}
+
+main .cta.main{
+  background-color: #B4D0E7;
+  display: flex;
+  justify-content: space-between;
+  color:#61082B;
+  margin: 100px 0;
+  padding: 100px 0;
 }
