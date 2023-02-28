@@ -280,3 +280,15 @@ main .patner-text{
 main .patner-text p{
   margin-top: 20px;
 }
+
+/*DROPBOX MORE OPERATION*/
+main .container-cards{
+  background-color: yellowgreen;
+}
+
+main .more-operation{
+  background-color: beige;
+  width: calc(100% / 3);
+  margin-right: 20px;
+}
+
