@@ -346,6 +346,9 @@ main .companies .box{
   border: 1px solid black;
 }
 
+main .companies .box.left, .box.right{
+  display: flex;
+}
 
 /*FOOTER*/
 footer{
