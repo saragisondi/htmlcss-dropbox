@@ -341,6 +341,10 @@ footer{
   justify-content: center;
 }
 
+footer hr{
+  margin-top: 100px;
+}
+
 footer div{
   display: flex;
   justify-content: space-between;
@@ -349,10 +353,21 @@ footer div{
 
 footer ul li a{
   color: #ffff;
+  display: flex;
+  margin:10px
 }
 
-footer ul li a:first-child{
+footer ul li:first-child{
   font-weight: bold;
   font-size: medium;
   padding-top:100px;
+  margin-bottom:20px;
 }
+
+footer a{
+  color: rgba(211, 211, 211, 0.648);
+  margin: 50px 0 30px 0;
+}
+
+
+
