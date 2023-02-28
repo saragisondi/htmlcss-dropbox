@@ -132,13 +132,14 @@ main ul li{
 }
 
 main .container-center{
-  margin: 200px  auto;
+  margin: 50px auto;
   width: 60%;
 }
 
 /*DROPBOX PLAN*/
 main .dropbox-plan h1{
   font-size: xx-large;
+  margin-top: 200px;
   
 }
 
@@ -308,6 +309,101 @@ main .cta-clients h1{
   margin-bottom: 20px;
 }
 
+/*DROPBOX COMPANIES*/
+main .companies{
+  display: flex;
+  justify-content: space-between;
+}
+
+main .companies .box img {
+  filter: invert(1);
+  width:50%;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+main .companies .box{
+  border: 1px solid black;
+  width: calc(100% / 3);
+}
+
+/*BOX*/
+main .companies a{
+  width: 50%;
+}
+
+/*BOX LEFT*/
+main .companies .left{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*BOX-CENTER*/
+main .companies .box.center{
+  background-color:#F5F5F5 ;
+}
+
+main .companies .box.center img{
+  filter:invert(0);
+  width: 30%;
+  margin: 40px 0 10px 50px;
+}
+
+main .companies .box.center hr{
+  margin-left:50px;
+  color: rgba(211, 211, 211, 0.648);
+}
+
+
+/*BOX RIGHT*/
+main .companies .right{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*COLOR BOX*/
+/*left*/
+main .companies .box.left a:nth-child(1) {
+  background-color:#A2D39B;
+}
+
+main .companies .box.left a:nth-child(2) {
+  background-color: #61082B;
+}
+
+main .companies .box.left a:nth-child(3){
+  background-color:#0093CE;
+}
+
+main .companies .box.left a:nth-child(4){
+  background-color: #FF1C1C;
+}
+
+/*COLOR BOX*/
+/*right*/
+main .companies .box.right a:nth-child(1){
+  background-color:#FF1C1C;
+}
+
+main .companies .box.right a:nth-child(2){
+  background-color:#B4D0E7;
+}
+
+main .companies .box.right a:nth-child(3){
+  background-color:#0D2481;
+}
+
+main .companies .box.right a:nth-child(4){
+  background-color:#FFD830;
+}
+
+main .companies .section.bottom{
+  background-color: rgb(252, 143, 0);
+  display: flex;
+}
+
+/*CTA & FREQUENT QUESTIONS*/
 main .cta.main{
   background-color: #B4D0E7;
   display: flex;
@@ -333,86 +429,6 @@ main .frequent-questions ul li:last-child{
   border-bottom: 1px solid lightgray;
   width: 80%;
 }
-
-/*DROPBOX COMPANIES*/
-main .companies{
-  background-color: bisque;
-  display: flex;
-  justify-content: space-between;
-}
-
-main .companies img{
-  filter: invert(1);
-}
-
-main .companies .box{
-  border: 1px solid black;
-  width: calc(100% / 3);
-}
-
-/*BOX*/
-main .companies a{
-  width: 50%;
-}
-
-/*BOX LEFT*/
-main .companies .left{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/*BOX RIGHT*/
-main .companies .right{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/*COLORI BOX*/
-/*left*/
-
-
-
-main .companies .box.left a:nth-child(1) {
-  background-color:#A2D39B;
-}
-
-main .companies .box.left a:nth-child(2) {
-  background-color: #61082B;
-}
-
-main .companies .box.left a:nth-child(3){
-  background-color:#0093CE;
-}
-
-main .companies .box.left a:nth-child(4){
-  background-color: #FF1C1C;
-}
-
-/*COLORI BOX*/
-/*right*/
-main .companies .box.right a:nth-child(1){
-  background-color:#FF1C1C;
-}
-
-main .companies .box.right a:nth-child(2){
-  background-color:#B4D0E7;
-}
-
-main .companies .box.right a:nth-child(3){
-  background-color:#0D2481;
-}
-
-main .companies .box.right a:nth-child(4){
-  background-color:#FFD830;
-}
-
-main .companies .section.bottom{
-  background-color: rgb(252, 143, 0);
-  display: flex;
-}
-
-
-
 
 
 /*FOOTER*/
