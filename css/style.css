@@ -316,3 +316,20 @@ main .cta.main{
   margin: 100px 0;
   padding: 100px 0;
 }
+
+main .frequent-questions ul {
+  display: block;
+  margin-top: 40px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+main .frequent-questions ul li a{
+  padding: 40px 0;
+  border-top: 1px solid lightgray;
+}
+
+main .frequent-questions ul li:last-child{
+  border-bottom: 1px solid lightgray;
+  width: 80%;
+}
