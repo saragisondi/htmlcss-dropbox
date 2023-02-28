@@ -341,7 +341,7 @@ main .companies{
   justify-content: space-between;
 }
 
-main .companies .section img{
+main .companies img{
   filter: invert(1);
 }
 
@@ -350,28 +350,60 @@ main .companies .box{
   width: calc(100% / 3);
 }
 
-main .companies .section.top{
+main .companies .top{
   display: flex;
-  background-color: rgb(53, 152, 239);
+}
+
+main .companies .bottom{
+  display: flex;
 }
 
 /*BOX LEFT*/
 
 /*COLORI BOX*/
-/*  background-color:#A2D39B;
+/*left*/
+main .companies .box.left .top a:first-child {
+  background-color:#A2D39B;
+}
 
+main .companies .box.left .top a:last-child{
   background-color: #61082B;
+}
 
+main .companies .box.left .bottom a:first-child{
   background-color:#0093CE;
-  
-  background-color: #FF1C1C;*/
+}
 
+main .companies .box.left .bottom a:last-child{
+  background-color: #FF1C1C;
+}
 
+/*COLORI BOX*/
+/*right*/
+main .companies .box.right .top a:first-child{
+  background-color:#FF1C1C;
+}
+
+main .companies .box.right .top a:last-child{
+  background-color:#B4D0E7;
+}
+
+main .companies .box.right .bottom a:first-child{
+  background-color:#0D2481;
+}
+
+main .companies .box.right .bottom a:last-child{
+  background-color:#FFD830;
+}
 
 main .companies .section.bottom{
   background-color: rgb(252, 143, 0);
   display: flex;
 }
+
+
+
+
 
 /*FOOTER*/
 footer{
