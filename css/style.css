@@ -341,12 +341,35 @@ main .companies{
   justify-content: space-between;
 }
 
-main .companies .box{
-  width: calc(100% / 3);
-  border: 1px solid black;
+main .companies .section img{
+  filter: invert(1);
 }
 
-main .companies .box.left, .box.right{
+main .companies .box{
+  border: 1px solid black;
+  width: calc(100% / 3);
+}
+
+main .companies .section.top{
+  display: flex;
+  background-color: rgb(53, 152, 239);
+}
+
+/*BOX LEFT*/
+
+/*COLORI BOX*/
+/*  background-color:#A2D39B;
+
+  background-color: #61082B;
+
+  background-color:#0093CE;
+  
+  background-color: #FF1C1C;*/
+
+
+
+main .companies .section.bottom{
+  background-color: rgb(252, 143, 0);
   display: flex;
 }
 
