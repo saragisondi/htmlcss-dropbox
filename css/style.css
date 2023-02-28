@@ -7,6 +7,7 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
+  font-size: small;
 }
 
 img{
@@ -30,14 +31,15 @@ a{
 }
 
 .white-button a{
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 5px 10px;
+  margin: 20px 0;
+  font-weight: 500;
 }
 
 .text{
   width: 30%;
   font-weight:500;
-  font-size: 13px;
 }
 
 /*NAVBAR*/
@@ -71,13 +73,18 @@ nav .button{
 
 /*HEADER*/
 header{
-position:fixed;
-left:0;
-right:0;
-z-index: 999;
+  position:fixed;
+  left:0;
+  right:0;
+  z-index: 999;
 }
 
 /*MAIN*/
+main h3{
+margin-top: 25px;
+margin-bottom: 10px;
+}
+
 /*JUMBOTRON*/
 main .jumbotron{
   background-color: #B4D0E7;
@@ -93,7 +100,7 @@ main .jumbotron h1{
 }
 
 main .jumbotron p{
-  margin-top: 95px;
+  margin-top: 100px;
   margin-bottom: 30px;
 }
 
@@ -124,16 +131,14 @@ main ul li{
 }
 
 main .container-center{
-  background-color: bisque;
   margin: 200px  auto;
-  width: 70%;
+  width: 60%;
 }
 
 /*DROPBOX PLAN*/
-
-
 main .dropbox-plan h1{
   font-size: xx-large;
+  
 }
 
 main .dropbox-plan ul li a{
@@ -148,6 +153,8 @@ main .dropbox-plan .monthly-billing i{
 /*PLAN TOP*/
 main .plan-column{
   margin-top: 30px;
+  background-color: #red;
+  
 }
 
 main .plan-top{
@@ -156,9 +163,14 @@ main .plan-top{
 }
 
 main .plan{
-  width: calc(100% / 3);
-  margin-right:55px;
+  width: 30%;
   display: flex;
+  width: calc(100% / 3);
+  margin-right: 30px;
+}
+
+main .plan.right{
+  margin-right: 0;
 }
 
 main .container-plan{
@@ -176,13 +188,8 @@ main .plan-type{
 
 main .plans{
   margin: 0 30px;
-  font-size: smaller;
 }
 
-main .plans h3{
-margin-top: 25px;
-margin-bottom: 10px;
-}
 
 main .plans h3 + span{ 
   margin-top: 10px;
@@ -199,8 +206,7 @@ main .cta-plan div:last-child{
 
 main .cta-plan .buy{
   color:#0061FF;
-  text-decoration: underline;
-  
+  text-decoration: underline; 
 }
 
 main hr{
@@ -222,18 +228,18 @@ main .plans .highlights ul li{
   margin: 20px 0;
 }
 
+main .plans .highlights ul li i{
+  color: #0061FF;
+}
+
 /*PLAN BOTTOM*/
 main .plan-bottom{
   margin-top: 50px;
 }
 
-main .plan-bottom h3{
-  margin: 15px 0
-}
 
 main .plan-bottom p{
   margin:20px 0;
-  font-size: small;
 }
 
 main .plan-bottom .team-text{
@@ -252,3 +258,25 @@ main .plan-bottom .button a{
 }
 
 /*DROPBOX PATNER*/
+
+main .dropbox-patner{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 100px 0;
+}
+main .container-img{
+  width: 50%;
+}
+
+main .container-text{
+  width: 50%;
+}
+
+main .patner-text{
+  margin: 80px 52px;
+}
+
+main .patner-text p{
+  margin-top: 20px;
+}
