@@ -346,8 +346,8 @@ main .companies .box.center{
 
 main .companies .box.center img{
   filter:invert(0);
-  width: 30%;
-  margin: 40px 0 10px 50px;
+  width: 50%;
+  margin-left: 10px;
 }
 
 main .companies .box.center hr{
