@@ -24,18 +24,10 @@ a{
   color: black;
 }
 
-li a:hover{
-  text-decoration: underline;
-}
-
 .button a{
   background-color:#0061FF ;
   color:#ffff;
   padding: 5px 10px;
-}
-
-.button a:hover{
-  border: 3px solid #0062ff70;
 }
 
 .white-button a{
@@ -43,14 +35,6 @@ li a:hover{
   padding: 5px 10px;
   margin: 20px 0;
   font-weight: 500;
-}
-
-.white-button.border a:hover{
-  border: 3px solid black;
-}
-
-.white-button a:hover{
-  border: 3px solid #ffff;
 }
 
 .white-button.border a{
@@ -199,6 +183,14 @@ main .container-plan{
   border: 1px solid gray;
 }
 
+main .container-plan ul{
+  display: block;
+}
+
+main .container-plan ul li{
+  margin: 20px 0;
+}
+
 main .plan-type{
   border-bottom:1px solid gray;
   padding: 10px;
@@ -211,8 +203,7 @@ main .plans{
   margin: 0 30px;
 }
 
-
-main .plans h3 + span{ 
+main .plans h3 + div{ 
   margin-top: 10px;
   color: grey;
 }
@@ -345,6 +336,7 @@ main .companies .box img {
 main .companies .box{
   border: 1px solid black;
   width: calc(100% / 3);
+  cursor: pointer;
 }
 
 /*BOX*/
@@ -418,7 +410,6 @@ main .companies .box.right div:nth-child(4){
 }
 
 main .companies .section.bottom{
-  background-color: rgb(252, 143, 0);
   display: flex;
 }
 
@@ -486,9 +477,34 @@ footer a{
 }
 
 
+/*HOVER*/
+li a:hover, a.underline:hover{
+  text-decoration: underline;
+}
 
+a.size-hover:hover{
+  font-size: medium;
+}
 
+.button a:hover{
+  border: 3px solid #0062ff70;
+}
 
+.white-button.border a:hover{
+  border: 3px solid black;
+}
+
+.white-button a:hover{
+  border: 3px solid #ffff;
+}
+
+/*ACTIVE*/
+/*COLOR BOX*/
+/*left*/
+
+/*ACTIVE*/
+/*COLOR BOX*/
+/*right*/
 
 
 
