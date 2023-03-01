@@ -348,7 +348,7 @@ main .companies .box{
 }
 
 /*BOX*/
-main .companies a{
+main .companies div{
   width: 50%;
 }
 
@@ -383,37 +383,37 @@ main .companies .right{
 
 /*COLOR BOX*/
 /*left*/
-main .companies .box.left a:nth-child(1) {
+main .companies .box.left div:nth-child(1) {
   background-color:#A2D39B;
 }
 
-main .companies .box.left a:nth-child(2) {
+main .companies .box.left div:nth-child(2) {
   background-color: #61082B;
 }
 
-main .companies .box.left a:nth-child(3){
+main .companies .box.left div:nth-child(3){
   background-color:#0093CE;
 }
 
-main .companies .box.left a:nth-child(4){
+main .companies .box.left div:nth-child(4){
   background-color: #FF1C1C;
 }
 
 /*COLOR BOX*/
 /*right*/
-main .companies .box.right a:nth-child(1){
+main .companies .box.right div:nth-child(1){
   background-color:#FF1C1C;
 }
 
-main .companies .box.right a:nth-child(2){
+main .companies .box.right div:nth-child(2){
   background-color:#B4D0E7;
 }
 
-main .companies .box.right a:nth-child(3){
+main .companies .box.right div:nth-child(3){
   background-color:#0D2481;
 }
 
-main .companies .box.right a:nth-child(4){
+main .companies .box.right div:nth-child(4){
   background-color:#FFD830;
 }
 
