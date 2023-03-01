@@ -34,11 +34,23 @@ li a:hover{
   padding: 5px 10px;
 }
 
+.button a:hover{
+  border: 3px solid #0062ff70;
+}
+
 .white-button a{
   background-color: #ffff;
   padding: 5px 10px;
   margin: 20px 0;
   font-weight: 500;
+}
+
+.white-button.border a:hover{
+  border: 3px solid black;
+}
+
+.white-button a:hover{
+  border: 3px solid #ffff;
 }
 
 .white-button.border a{
