@@ -57,10 +57,6 @@ nav{
 }
 
 
-nav ul{
-  display: flex;
-}
-
 nav ul li{
   margin: 5px 30px;
   position:relative;
@@ -74,6 +70,46 @@ nav ul li hr{
   cursor: pointer;
 }
 
+nav ul li a{
+  color: black;
+}
+
+nav .nav.right{
+  position: absolute;
+  right: 0;
+}
+
+nav .button{
+  margin:0 30px;
+}
+
+/*DROPDOWN*/
+nav ul.main-menu{
+  display: flex;
+}
+
+nav li.dropdown{
+  position: relative;
+}
+
+nav ul.dropdown-menu{
+  position: absolute;
+  top:40px;
+  left:-30px;
+  cursor: pointer;
+  background-color:#FAF9FA;
+  opacity:0;
+  transition: all .5s;
+}
+
+nav ul.dropdown-menu li{
+  width: 180px;
+  height: 30px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/*HR*/
 nav ul li hr.small{
   width: 40px;
 }
@@ -90,18 +126,6 @@ nav ul li hr.x-large{
   width: 150px;
 }
 
-nav ul li a{
-  color: black;
-}
-
-nav .nav.right{
-  position: absolute;
-  right: 0;
-}
-
-nav .button{
-  margin:0 30px;
-}
 
 /*HEADER*/
 header{
@@ -176,8 +200,7 @@ main .container-center{
 /*DROPBOX PLAN*/
 main .dropbox-plan h1{
   font-size: xx-large;
-  margin-top: 200px;
-  
+  margin-top: 250px;
 }
 
 main .dropbox-plan ul li a{
@@ -194,7 +217,6 @@ main .dropbox-plan .monthly-billing i{
 main .plan-column{
   margin-top: 30px;
   background-color: #red;
-  
 }
 
 main .plan-top{
@@ -461,21 +483,25 @@ main .cta.main{
 
 main .frequent-questions ul {
   display: block;
-  margin-top: 40px;
   font-size: medium;
   font-weight: bold;
 }
 
 main .frequent-questions ul li a{
   padding: 40px 0;
-  border-top: 1px solid lightgray;
 }
 
-main .frequent-questions ul li:last-child{
+main .question-menu ul li{
   border-bottom: 1px solid lightgray;
-  width: 80%;
+  font-weight: 500;
+  color: grey;
 }
 
+
+/*DROPDOWN MENU*/
+.dropdown-question .dropdown{
+  margin-bottom: 20px;
+}
 
 /*FOOTER*/
 footer{
@@ -542,6 +568,13 @@ a.size-hover:hover{
   border: 3px solid black;
 }
 
+.dropdown:hover .dropdown-menu{
+  opacity: 1;
+}
+
+.dropdown-menu:hover li:first-child{
+  background-color: lightgray;
+}
 
 /*ACTIVE*/
 .fa-solid.fa-arrow-down:active{
