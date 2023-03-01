@@ -450,6 +450,8 @@ main .companies .left{
 /*BOX-CENTER*/
 main .companies .box.center{
   background-color:#F5F5F5 ;
+  overflow: auto;
+  max-height: 400px;
 }
 
 main .companies .box.center img{
@@ -462,6 +464,9 @@ main .companies .box.center hr{
   color: rgba(211, 211, 211, 0.648);
 }
 
+main .companies .box.center p{
+  margin-bottom: 10px;
+}
 
 /*BOX RIGHT*/
 main .companies .right{
@@ -509,7 +514,7 @@ main .companies .section.bottom{
   display: flex;
 }
 
-/*SHADOW BOX ACTIVE*/
+/*BOXES SHADOW ACTIVE*/
 main .companies .shadow:active{
   box-shadow: inset 0 0 25px  rgba(225, 216, 216, 0.604)
 }
