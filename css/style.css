@@ -24,6 +24,10 @@ a{
   color: black;
 }
 
+li a:hover{
+  text-decoration: underline;
+}
+
 .button a{
   background-color:#0061FF ;
   color:#ffff;
