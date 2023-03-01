@@ -190,7 +190,7 @@ main ul{
 }
 
 main ul li{
-  margin: 0 5px;
+  margin: 25px 5px;
 }
 
 main .container-center{
@@ -416,11 +416,10 @@ main .companies .box.center{
 main .companies .box.center img{
   filter:invert(0);
   width: 50%;
-  margin-left: 10px;
+  margin-left: 2px;
 }
 
 main .companies .box.center hr{
-  margin-left:50px;
   color: rgba(211, 211, 211, 0.648);
 }
 
@@ -481,27 +480,50 @@ main .cta.main{
   padding: 100px 0;
 }
 
-main .frequent-questions ul {
+main .frequent-questions ul{
   display: block;
   font-size: medium;
   font-weight: bold;
+  padding: 20px 0;
 }
 
-main .frequent-questions ul li a{
-  padding: 40px 0;
+main .frequent-questions ul li{
+  border-bottom: 1px solid lightgray;
+}
+
+main .frequent-questions h1{
+  margin-bottom: 50px;
+}
+
+/*DROPDOWN MENU*/
+
+main .question-menu{
+  border-top: 1px solid lightgray;
 }
 
 main .question-menu ul li{
-  border-bottom: 1px solid lightgray;
   font-weight: 500;
   color: grey;
+  position: relative;
+}
+
+main ul li .dropdown.hidden{
+  display: none;
+}
+
+main .dropdown-question .dropdown li{
+  position: absolute;
+  top:5120px;
 }
 
 
-/*DROPDOWN MENU*/
-.dropdown-question .dropdown{
-  margin-bottom: 20px;
+main .dropdown-question .dropdown a{
+  text-decoration: underline;
+  cursor: pointer;
+  color: grey;
+  display: inline;
 }
+
 
 /*FOOTER*/
 footer{
@@ -575,6 +597,13 @@ a.size-hover:hover{
 .dropdown-menu:hover li:first-child{
   background-color: lightgray;
 }
+
+main ul.dropdown-question:hover .dropdown.hidden{
+  opacity: 1;
+  padding-bottom: 50px;
+  display: block;
+}
+
 
 /*ACTIVE*/
 .fa-solid.fa-arrow-down:active{
