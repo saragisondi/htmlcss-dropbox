@@ -509,6 +509,11 @@ main .companies .section.bottom{
   display: flex;
 }
 
+/*SHADOW BOX ACTIVE*/
+main .companies .shadow:active{
+  box-shadow: inset 0 0 25px  rgba(225, 216, 216, 0.604)
+}
+
 /*CTA & FREQUENT QUESTIONS*/
 main .cta.main{
   background-color: #B4D0E7;
@@ -644,14 +649,6 @@ footer ul li a:hover{
 
 
 
-
-
-/*COLOR BOX*/
-/*left*/
-
-/*ACTIVE*/
-/*COLOR BOX*/
-/*right*/
 
 
 
