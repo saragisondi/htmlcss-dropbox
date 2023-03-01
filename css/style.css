@@ -46,6 +46,44 @@ a{
   font-weight:500;
 }
 
+/*GENERAL HOVER*/
+a.underline:hover{
+  text-decoration: underline;
+}
+
+a.size-hover:hover{
+  font-size: medium;
+}
+
+.button a:hover{
+  border: 3px solid #0062ff70 ;
+}
+
+.white-button a:hover{
+  border: 3px solid #ffff;
+}
+
+.white-button.border a:hover{
+  border: 3px solid black;
+}
+
+/*GENERAL ACTIVE*/
+.fa-solid.fa-arrow-down:active{
+  color: white;
+}
+
+.button a:active{
+  filter: invert(1);
+}
+
+.white-button a:active{
+  filter: invert(1);
+}
+
+.white-button.border a:active{
+  filter: invert(1);
+}
+
 /*NAVBAR*/
 nav{
   display: flex;
@@ -55,7 +93,6 @@ nav{
   background-color: #ffff;
   border-bottom: 2px solid lightgray;
 }
-
 
 nav ul li{
   margin: 5px 30px;
@@ -126,6 +163,10 @@ nav ul li hr.x-large{
   width: 150px;
 }
 
+/*NAV HOVER*/
+nav ul li hr:hover{
+  border: 2px solid black;
+}
 
 /*HEADER*/
 header{
@@ -281,8 +322,6 @@ main .action{
   color:#0061FF;
   text-decoration: underline; 
 }
-
-
 
 /*PLAN HIGHLIGHTS*/
 
@@ -496,7 +535,6 @@ main .frequent-questions h1{
 }
 
 /*DROPDOWN MENU*/
-
 main .question-menu{
   border-top: 1px solid lightgray;
 }
@@ -516,7 +554,6 @@ main .dropdown-question .dropdown li{
   top:5120px;
 }
 
-
 main .dropdown-question .dropdown a{
   text-decoration: underline;
   cursor: pointer;
@@ -524,6 +561,43 @@ main .dropdown-question .dropdown a{
   display: inline;
 }
 
+main .dropdown-question a{
+  position: relative;
+}
+
+main .question-menu .fa-solid.fa-chevron-down{
+  margin-left: 78px;
+}
+
+main .question-menu .fa-solid.fa-chevron-up{
+  position: absolute;
+  right: 450px;
+  display: none;
+}
+
+
+/*DROPDOWN HOVER*/
+main ul.dropdown-question:hover .dropdown.hidden{
+  opacity: 1;
+  padding-bottom: 50px;
+  display: block;
+}
+
+.dropdown-menu:hover li:first-child{
+  background-color: lightgray;
+}
+
+.dropdown:hover .dropdown-menu{
+  opacity: 1;
+}
+
+main .question-menu li:hover .fa-solid.fa-chevron-up{
+  display: block;
+}
+
+main .question-menu:hover .fa-solid.fa-chevron-down{
+  display: none;
+}
 
 /*FOOTER*/
 footer{
@@ -561,70 +635,15 @@ footer a{
 }
 
 
-/*HOVER*/
-
-nav ul li hr:hover{
-  border: 2px solid black;
-}
+/*HOVER FOOTER*/
 footer ul li a:hover{
   text-decoration: underline;
 }
 
-a.underline:hover{
-  text-decoration: underline;
-}
-
-a.size-hover:hover{
-  font-size: medium;
-}
-
-.button a:hover{
-  border: 3px solid #0062ff70 ;
-}
-
-.white-button a:hover{
-  border: 3px solid #ffff;
-}
-
-.white-button.border a:hover{
-  border: 3px solid black;
-}
-
-.dropdown:hover .dropdown-menu{
-  opacity: 1;
-}
-
-.dropdown-menu:hover li:first-child{
-  background-color: lightgray;
-}
-
-main ul.dropdown-question:hover .dropdown.hidden{
-  opacity: 1;
-  padding-bottom: 50px;
-  display: block;
-}
 
 
-/*ACTIVE*/
-.fa-solid.fa-arrow-down:active{
-  color: white;
-}
 
-.button a:active{
-  filter: invert(1);
-}
 
-.white-button a:active{
-  filter: invert(1);
-}
-
-.white-button.border a:active{
-  filter: invert(1);
-}
-/*ACTIVE*/
-.fa-solid.fa-arrow-down:active{
-  color:#ffff;
-}
 
 
 /*COLOR BOX*/
