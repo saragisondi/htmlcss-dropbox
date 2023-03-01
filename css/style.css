@@ -36,10 +36,13 @@ li a:hover{
 
 .white-button a{
   background-color: #ffff;
-  border: 2px solid black;
   padding: 5px 10px;
   margin: 20px 0;
   font-weight: 500;
+}
+
+.white-button.border a{
+  border: 2px solid black;
 }
 
 .text{
